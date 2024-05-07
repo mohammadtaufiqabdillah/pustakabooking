@@ -21,57 +21,57 @@
                 <tr>
                     <th>NIM</th>
                     <th>:</th>
-                    <td>
-                        <input type="text" name="kode" id="kode" placeholder="Required">
+                    <th>
+                        <input type="number" name="kode" id="kode" placeholder="Required">
                         <div class="col-sm-6 col-danger">
                             <?= form_error('kode'); ?>
                         </div>
-                    </td>
+                    </th>
                 </tr>
                 <tr>
                     <th>Nama</th>
                     <th>:</th>
-                    <td>
+                    <th>
                         <input type="text" name="nama" id="nama" placeholder="Required">
                         <div class="col-sm-6 col-danger">
                             <?= form_error('nama'); ?>
                         </div>
-                    </td>
+                    </th>
                 </tr>
                 <tr>
                     <th>Tanggal Lahir</th>
                     <th>:</th>
-                    <td>
+                    <th>
                         <input type="date" name="tanggal" id="tanggal" placeholder="Required">
                         <div class="col-sm-6 col-danger">
                             <?= form_error('tanggal'); ?>
                         </div>
-                    </td>
+                    </th>
                 </tr>
                 <tr>
                     <th>Tempat Lahir</th>
                     <th>:</th>
-                    <td>
+                    <th>
                         <input type="text" name="tempat" id="tempat" placeholder="Required">
                         <div class="col-sm-6 col-danger">
                             <?= form_error('tempat'); ?>
                         </div>
-                    </td>
+                    </th>
                 </tr>
                 <tr>
                     <th>Alamat</th>
                     <th>:</th>
-                    <td>
+                    <th>
                         <input type="text" name="alamat" id="alamat" placeholder="Required">
                         <div class="col-sm-6 col-danger">
                             <?= form_error('alamat'); ?>
                         </div>
-                    </td>
+                    </th>
                 </tr>
                 <tr>
-                    <td colspan="3" align="center">
+                    <th colspan="3" align="center">
                         <input type="submit" value="Submit">
-                    </td>
+                    </th>
                 </tr>
             </table>
         </form>

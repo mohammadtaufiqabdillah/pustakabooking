@@ -8,9 +8,9 @@
     <center>
         <table>
             <tr>
-                <th colspan="3">
+                <td colspan="3">
                     Tampil Data Daftar Riwayat Hidup
-                </th>
+                </td>
             </tr>
             <tr>
                 <td colspan="3">
@@ -20,43 +20,43 @@
             <tr>
                 <th>NIM</th>
                 <th>:</th>
-                <td>
+                <th>
                     <?= $kode; ?>
-                </td>
+                </th>
             </tr>
             <tr>
-                <td>Nama</td>
+                <th>Nama</th>
                 <th>:</th>
-                <td>
+                <th>
                     <?= $nama; ?>
-                </td>
+                </th>
             </tr>
             <tr>
-                <td>Tanggal Lahir</td>
+                <th>Tanggal Lahir</th>
                 <th>:</th>
-                <td>
+                <th>
                     <?= $tanggal; ?>
-                </td>
+                </th>
             </tr>
             <tr>
-                <td>Tempat Lahir</td>
+                <th>Tempat Lahir</th>
                 <th>:</th>
-                <td>
+                <th>
                     <?= $tempat; ?>
-                </td>
+                </th>
             </tr>
             <tr>
-                <td>Alamat</td>
+                <th>Alamat</th>
                 <th>:</th>
-                <td>
+                <th>
                     <?= $alamat; ?>
-                </td>
+                </th>
             </tr>
             <tr>
-                <td colspan="3" align="center">
+                <th colspan="3" align="center">
                     <a href="<?= base_url('daftar');
                     ?>">Kembali</a>
-                </td>
+                </th>
             </tr>
         </table>
     </center>
