@@ -25,7 +25,7 @@ justify-content-center" href="admin">
     <li class="nav-item">
         <a class="nav-link pb-0" href="<?=
             base_url('buku/kategori'); ?>">
-            <i class="fa fa-fw fa book"></i>
+            <i class="fas fa-book"></i>
             <span>Kategori Buku</span></a>
     </li>
 

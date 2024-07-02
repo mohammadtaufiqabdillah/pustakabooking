@@ -51,7 +51,7 @@ class="text-danger pl-3">', '</small>'); ?>
                             <a class="small" href="<?=
                                 base_url('autentifikasi/lupaPassword'); ?>">Lupa Password?</a>
                         </div>
-                        <div class="text-center">
+                        <div class="text-sm-center">
                             Sudah Menjadi Member?<a class="small" href="<?= base_url('autentifikasi'); ?>"> Login!</a>
                         </div>
                     </div>

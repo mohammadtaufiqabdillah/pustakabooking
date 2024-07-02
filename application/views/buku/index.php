@@ -10,7 +10,7 @@
             <?php } ?>
             <?= $this->session->flashdata('pesan'); ?>
             <a href="" class="btn btn-primary mb-3" data-toggle="modal" data-target="#bukuBaruModal"><i
-                    class="fas fa-file-alt"></i> Buku Baru</a>
+                    class="fas fa-filealt"></i> Buku Baru</a>
             <table class="table table-hover">
                 <thead>
                     <tr>
@@ -63,17 +63,18 @@
                                 <picture>
                                     <source srcset="" type="image/svg+xml">
                                     <img src="<?=
-                                        base_url('assets/img/upload/') . $b['image']; ?>" class="img-fluid 
+                                        base_url('assets/img/upload/') . $b['image']; ?>" class="img-fluid
 img-thumbnail" alt="...">
                                 </picture>
                             </td>
                             <td>
                                 <a href="<?=
-                                    base_url('buku/ubahBuku/') . $b['id']; ?>" class="badge badge-info"><i class="fas fa-edit"></i> Ubah</a>
+                                    base_url('buku/ubahBuku/') . $b['id']; ?>" class="badge badge-info"><i
+                                        class="fas fa-edit"></i> Ubah</a>
                                 <a href="<?=
                                     base_url('buku/hapusbuku/') . $b['id']; ?>" onclick="return
 confirm('Kamu yakin akan menghapus <?= $judul . '
-' . $b['judul_buku']; ?> ?');" class="badge badge-danger"><i class="fas 
+' . $b['judul_buku']; ?> ?');" class="badge badge-danger"><i class="fas
 fa-trash"></i> Hapus</a>
                             </td>
                         </tr>
@@ -117,16 +118,16 @@ fa-trash"></i> Hapus</a>
                     </div>
                     <div class="form-group">
                         <input type="text" class="form-control form-control-user" id="pengarang" name="pengarang"
-                            placeholder="Masukkan 
+                            placeholder="Masukkan
 nama pengarang">
                     </div>
                     <div class="form-group">
                         <input type="text" class="form-control form-control-user" id="penerbit" name="penerbit"
-                            placeholder="Masukkan 
+                            placeholder="Masukkan
 nama penerbit">
                     </div>
                     <div class="form-group">
-                        <select name="tahun" class="form-control 
+                        <select name="tahun" class="form-control
 form-control-user">
                             <option value="">Pilih Tahun</option>
                             <?php
@@ -144,7 +145,7 @@ form-control-user">
                             placeholder="Masukkan ISBN">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control form-control-user" id="stok" name="stok" placeholder="Masukkan nominal 
+                        <input type="text" class="form-control form-control-user" id="stok" name="stok" placeholder="Masukkan nominal
 stok">
                     </div>
                     <div class="form-group">

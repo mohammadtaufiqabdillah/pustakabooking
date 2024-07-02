@@ -3,7 +3,7 @@ class Autentifikasi extends CI_Controller
 {
     public function anggota()
     {
-        
+
     }
 
     public function registrasi()
@@ -107,7 +107,7 @@ Password', 'required|trim|matches[password1]');
         $this->form_validation->set_rules(
             'password',
             'Password',
-            'required|trim',
+            'required',
             [
                 'required' => 'Password Harus diisi'
             ]
@@ -179,7 +179,6 @@ terdaftar!!</div>');
     {
         $this->session->unset_userdata('email');
         $this->session->unset_userdata('role_id');
-
         $this->session->set_flashdata('pesan', '<div class="alert alert-success alert-message" role="alert"> Anda telah logout !!</div>');
         redirect('autentifikasi');
     }
